@@ -120,7 +120,32 @@ select option {
      background-color: #b8b8b8;
     
 }
-.bi-arrow-left-square{
-    
+.icon-size{
+    font-size:30px;
 }
- 
+ .date-info{
+     font-size:24px;
+     color: #2d3436;
+     font-weight: 200;
+ }
+ .day-info{
+     font-size:15px;
+     font-weight: 200;
+     color:#2d3436
+ }
+ .row2-color{
+    background-image: linear-gradient(to right ,rgba(255, 255, 255, 0.466)  ,rgba(0, 0, 0, 0.479) , rgba(255, 255, 255, 0.466));
+    height: 100px;
+}
+.close-button{
+    position: absolute;
+    margin-left: 1080px;
+    border:none;
+    background-color: transparent;
+    font-size:30px;
+   
+}
+.time-btn{
+    width: 100px !important;
+
+}
