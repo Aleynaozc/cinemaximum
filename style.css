@@ -7,18 +7,21 @@
  border-left: 1px solid rgb(185, 185, 185);
  height: 120px;   
 }
+.logo-pos{
+  background-color: rgb(255, 255, 255);
+}
 .search-icon{
     position: relative;
     left:230px;
     font-size: 17px;
 }
 .navbar-fontfamily{
-  font-family: 'Lobster', cursive;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size:20px;
   border-bottom: 220px;
 }
 .select-fontfam{
-  font-family: 'Merienda One', cursive;
+  font-family: 'IBM Plex Sans', sans-serif;
   
 }
 .nav-item .nav-link{
@@ -82,7 +85,8 @@
   margin-top: 20px;
   height: 60px;
   background-color: transparent;
-  background-image: linear-gradient(to right,rgba(236, 236, 236, 0.274),rgba(0, 0, 0, 0.671) );
+  background-image: linear-gradient(to right ,rgba(131, 103, 182, 0.466)  ,rgba(255, 200, 200, 0.479) , rgba(255, 255, 255, 0.466));
+
   border-radius: 0.5rem;
   
 
@@ -101,9 +105,9 @@
     left:35px;
   }
 .btn-color{
-  background-image: linear-gradient(to right,rgba(236, 236, 236, 0.274),rgba(0, 0, 0, 0.671) );
-   
+  background-image: linear-gradient(to right ,rgba(131, 103, 182, 0.466)  ,rgba(255, 200, 200, 0.479) , rgba(255, 255, 255, 0.466));
 }
+
 .clear-filter{
   color:rgb(165, 58, 58);
 }
@@ -134,7 +138,7 @@
 select option {
   margin: 40px;
   
-  background-color: rgba(141, 61, 61, 0.822);
+  background-color: rgba(216, 216, 216, 0.822);
 
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
 }
@@ -253,7 +257,7 @@ select option {
 #grad2{
   height: 400px;
  background-color: transparent;
- background-image: linear-gradient( rgba(236, 236, 236, 0.274),rgb(59, 59, 59) );
+ background-image: linear-gradient(rgba(131, 103, 182, 0.466)  ,rgba(255, 200, 200, 0.479) , rgba(255, 255, 255, 0.466));
   
 }
 .footer-title-style{
@@ -278,8 +282,5 @@ select option {
   
 }
 
-.navbar-collapse{
 
- background-image: linear-gradient(to right,rgb(253, 253, 253),rgb(0, 0, 0) );
-}
 

@@ -66,13 +66,14 @@ position: absolute;
 }
 .cnt-btn{
     height: 50px;
-    background-color: bisque!important;
+    border-color: #000000!important;
 }
 .ticket-width{
     width: 600px;
     background-color: white!important;
     font-size: 25px!important;
     font-weight: 200!important;
+    color:#561211!important;
 }
 .quantity {
     display: inline-block; }
@@ -274,7 +275,33 @@ position: absolute;
     height: 55px!important;
 }
 .ssn{
-    position: absolute;
+    position: relative;
     bottom: 71px!important;
-    left:210px;
+    margin-left: 220px;
+}
+ .policy{
+     color:#000000;
+ }
+ .icon-right-mastr{
+     font-size: 40px!important;
+     color: orange;
+ }
+ .icon-right-visa{
+    font-size: 40px!important;
+    color: darkblue;
+}
+.pay-btn{
+    width:60px!important ;
+    height: 45px;
+    border-color: #000000!important;
+    
+}
+.btn-name-pay{
+    text-align: center;
+}
+.btn{
+    background-color: #0081cb;
+}
+.btn:hover{
+    background-color: brown;
 }
