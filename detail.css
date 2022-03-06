@@ -124,7 +124,7 @@ select option {
     font-size:30px;
 }
  .date-info{
-     font-size:24px;
+     font-size:20px;
      color: #2d3436;
      font-weight: 200;
  }
@@ -137,7 +137,7 @@ select option {
     background-image: linear-gradient(to right ,rgba(255, 255, 255, 0.466)  ,rgba(0, 0, 0, 0.479) , rgba(255, 255, 255, 0.466));
     height: 100px;
 }
-.close-button{
+.close-button-info{
     position: absolute;
     margin-left: 1080px;
     border:none;
@@ -148,4 +148,27 @@ select option {
 .time-btn{
     width: 100px !important;
 
+}
+.nav-item{
+    list-style: none;
+ }
+ .hr-line{
+    margin-left: 20px;
+    width: 70px;
+    
+ }
+ .triangle {
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid rebeccapurple;
+    border-bottom: 0;
+    margin-left: 45px !important;
+  }
+.nav-item .nav-link{
+    color:rgb(0, 0, 0)!important;
+    
+}
+.nav-item .nav-link:hover{
+    color:rgb(69, 48, 145)!important;
 }

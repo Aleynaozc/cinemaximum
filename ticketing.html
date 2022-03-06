@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./detail.css" />
+    <link rel="stylesheet" href="./index.html" />
+    <link rel="stylesheet" href="./detail.html" />
+    <link rel="stylesheet" href="./ticketing.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                  
+    <title>Ticketing</title>
+</head>
+<body>
+    <main>
+            <div class="container-fluid">
+                <div class="bg-image"></div>
+                <div class="row movie-info ">
+
+                
+                  <div class="col-3 mt-5 offset-1 left-side-tic">    
+            
+                      <h2 class="movie-name-tic">Gizli Gerçek</h2>
+                      <img
+                        src="assets/image/viz3.jpg"
+                        class=" image-pos-tic" 
+                        alt="..."
+                        />
+                        <div class="border-bottom bottom-tic  mt-3"></div>
+                         <i class="fa-solid fa-location-dot movie-info-tic"> </i> <h8 class="movie-info-tic">Cinema Kent Plaza </h8>
+                         <div class="border-bottom bottom-tic  mt-3"></div>
+                         <i class="fa-regular fa-calendar movie-info-tic"></i> <h8 class="movie-info-tic"> 6 Mar Sunday</h8>
+                         <div class="border-bottom bottom-tic mt-3"></div>
+                         <i class="fa-regular fa-clock movie-info-tic"></i><h8 class="movie-info-tic"> 15:05 2D-Dub</h8>
+                         <div class="border-bottom bottom-tic  mt-3"></div>
+                         <a href="./detail.html" class="btn btn-light chng-btn shadow mt-4 mx-2 w-50"> <p class="mt-1 btn-name">Change</p></a>
+                   </div>
+                
+                
+                 <div class="col-8  bg-white ">
+                    <nav class="bck-home-tic">
+                       <a href="./index.html" class=" text-decoration-none bck-home-tic "> Back to Home Page </a>
+                         <span class="callout" data-closable>
+                             <button class="close-button close-button-tic" aria-label="Close alert" type="button" data-close>
+                                  <span aria-hidden="true">&times;</span>
+                             </button>
+                            </span>
+                               <div class="border-bottom   mt-3"></div>
+
+                    </nav>
+                    <div class="row ">
+                        <div class="col-5 mt-3 mx-2">
+                            <h3 class="choose-title">Choose your ticket</h3>
+                            <p class="">You chose movie and session, now please choose your ticket type. Our seats can be priced differently based on their seat lines.</p>
+                        </div>
+                        <div class="col-6 mt-3  text-end">
+                            <a href="#" class="btn btn-light cnt-btn border mt-4 mx-2 "> <p class="mt-1 btn-name">Continue</p></a>
+                        </div>
+                   </div>
+               
+                   <div class="row ">
+                       <div class="input-group mb-3">
+                          <span class="input-group-text bg-white"><i class="fa-solid fa-ticket"></i></span>
+                           <span class="input-group-text ticket-width">CINEMA DAY</span>
+                          <span class="input-group-text bg-white">29,50 ₺</span>
+                          <div class="quantity buttons_added border">
+                             <input type="button" value="-" class="minus border-0 btn-bg-tic">
+                             <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text border-0" size="4" pattern="" inputmode="">
+                             <input type="button" value="+" class="plus border-0 btn-bg-tic ">
+                           </div>
+                       </div>
+                      <div class="input-group mb-3">
+                         <span class="input-group-text bg-white"><i class="fa-solid fa-ticket"></i></span>
+                          <span class="input-group-text ticket-width">STUDENT MONDAY</span>  
+                          <span class="input-group-text bg-white">29,50 ₺</span>
+                          <div class="quantity buttons_added border">
+                             <input type="button" value="-" class="minus border-0 btn-bg-tic">
+                             <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text border-0" size="4" pattern="" inputmode="">
+                             <input type="button" value="+" class="plus border-0 btn-bg-tic ">
+                           </div>                   
+                       </div>
+                       <div class="section-price">
+                        <span class="text">Total Tickets</span>
+                        <span class="price" data-totalprice="0">59,00 ₺</span>
+                        </div>
+             
+                    </div>
+                    <div class="row ">
+                        <div class="col-5 mt-3 mx-2">
+                            <h3 class="choose-title">Select Seat</h3>
+                            <p class="">Please choose your seat. Seats will be shown as taken, when they are different than the category you chose. If you want to change your selection, you can click on “Change” button on Tickets tab.</p>
+                        </div>
+                        <div class="col-6 mt-3  text-end">
+                            <a href="#" class="btn btn-light cnt-btn border mt-4 mx-2 "> <p class="mt-1 btn-name">Continue</p></a>
+                        </div>
+                   </div>
+
+                    <div class="row mt-4 ">
+                        <div class="col-4 ">
+                            <ul class="seat-letter mt-3 ">
+        
+                                <li class="mb-1"><strong>E</strong></li>
+                                <li class="mb-1"><strong>D</strong></li>
+                                <li class="mb-1"><strong>C</strong></li>
+                                <li class="mb-1"><strong>B</strong></li>
+                                <li class="mb-1"><strong>A</strong></li>
+                              </ul>
+                        </div>
+                        <div class="col-4  ">
+                            <div class="movie-container">
+                               
+                                
+                                <div class="container">
+                                  <div class="screen"></div>
+                                  
+                                  
+                                    <div class="row">
+                                     
+                                      <div class="seat mb-2"></div>
+                                      <div class="seat "></div>
+                                      <div class="seat "></div>
+                                      <div class="seat"></div>
+                                      <div class="seat"></div>
+                                   
+                                    </div>
+
+                                    <div class="row">
+                                     
+                                        <div class="seat mb-2"></div>
+                                        <div class="seat occupied"></div>
+                                        <div class="seat"></div>
+                                        <div class="seat"></div>
+                                        <div class="seat"></div>
+                                     
+                                      </div>
+                                      <div class="row">
+                                     
+                                        <div class="seat mb-2"></div>
+                                        <div class="seat"></div>
+                                        <div class="seat"></div>
+                                        <div class="seat occupied"></div>
+                                        <div class="seat"></div>
+                                     
+                                      </div>
+                                      <div class="row">
+                                     
+                                        <div class="seat mb-2"></div>
+                                        <div class="seat "></div>
+                                        <div class="seat "></div>
+                                        <div class="seat"></div>
+                                        <div class="seat"></div>
+                                     
+                                      </div>
+                                      <div class="row">
+                                     
+                                        <div class="seat"></div>
+                                        <div class="seat "></div>
+                                        <div class="seat "></div>
+                                        <div class="seat"></div>
+                                        <div class="seat"></div>
+                                     
+                                      </div>
+                                    
+                                  
+                                </div>
+                              </div>
+                              
+                             
+                           
+                        </div>
+                        <div class="col-3  ">
+                            <ul class="seat-letter-right mt-3 ">
+        
+                                <li class="mb-1"><strong>E</strong></li>
+                                <li class="mb-1"><strong>D</strong></li>
+                                <li class="mb-1"><strong>C</strong></li>
+                                <li class="mb-1"><strong>B</strong></li>
+                                <li class="mb-1"><strong>A</strong></li>
+                              </ul>
+                        </div>
+                    </div>
+                    <h5 class="screen-title">SCREEN</h5>
+                    <hr class="border-screen">
+                    <ul class="showcase">
+                        <li>
+                          <div class="seat"></div>
+                          <small>N/A</small>
+                        </li>
+                        <li>
+                          <div class="seat selected"></div>
+                          <small>Selected</small>
+                        </li>
+                        <li>
+                          <div class="seat occupied"></div>
+                          <small>Occupied</small>
+                        </li>    
+                      </ul>
+                      
+                </div>
+         </div>
+        </div>
+        <script>function wcqib_refresh_quantity_increments() {
+            jQuery("div.quantity:not(.buttons_added), td.quantity:not(.buttons_added)").each(function(a, b) {
+                var c = jQuery(b);
+                c.addClass("buttons_added"), c.children().first().before('<input type="button" value="-" class="minus" />'), c.children().last().after('<input type="button" value="+" class="plus" />')
+            })
+        }
+        String.prototype.getDecimals || (String.prototype.getDecimals = function() {
+            var a = this,
+                b = ("" + a).match(/(?:\.(\d+))?(?:[eE]([+-]?\d+))?$/);
+            return b ? Math.max(0, (b[1] ? b[1].length : 0) - (b[2] ? +b[2] : 0)) : 0
+        }), jQuery(document).ready(function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("updated_wc_div", function() {
+            wcqib_refresh_quantity_increments()
+        }), jQuery(document).on("click", ".plus, .minus", function() {
+            var a = jQuery(this).closest(".quantity").find(".qty"),
+                b = parseFloat(a.val()),
+                c = parseFloat(a.attr("max")),
+                d = parseFloat(a.attr("min")),
+                e = a.attr("step");
+            b && "" !== b && "NaN" !== b || (b = 0), "" !== c && "NaN" !== c || (c = ""), "" !== d && "NaN" !== d || (d = 0), "any" !== e && "" !== e && void 0 !== e && "NaN" !== parseFloat(e) || (e = 1), jQuery(this).is(".plus") ? c && b >= c ? a.val(c) : a.val((b + parseFloat(e)).toFixed(e.getDecimals())) : d && b <= d ? a.val(d) : b > 0 && a.val((b - parseFloat(e)).toFixed(e.getDecimals())), a.trigger("change")
+        });
+        </script>
+        <script>
+            const container = document.querySelector('.container');
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
+const count = document.getElementById('count');
+const total = document.getElementById('total');
+const movieSelect = document.getElementById('movie');
+
+let ticketPrice = +movieSelect.value;
+
+//Update total and count
+function updateSelectedCount() {
+  const selectedSeats = document.querySelectorAll('.row .seat.selected');
+  const selectedSeatsCount = selectedSeats.length;
+  count.innerText = selectedSeatsCount;
+  total.innerText = selectedSeatsCount * ticketPrice;
+}
+
+//Movie Select Event
+movieSelect.addEventListener('change', e => {
+  ticketPrice = +e.target.value;
+  updateSelectedCount();
+});
+
+//Seat click event
+container.addEventListener('click', e => {
+  if (e.target.classList.contains('seat') &&
+     !e.target.classList.contains('occupied')) {
+    e.target.classList.toggle('selected');
+  }
+  updateSelectedCount();
+});
+        </script>
+    </main>
+</body>
+</html>

@@ -1,0 +1,258 @@
+.bg-image{
+position: absolute;
+    background-image:url(./assets/image/tic-1.jpg) ;
+    width: 32%;
+    height: 848px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index:0;
+    filter:blur(8px);
+    -webkit-filter:blur(8px);
+}
+.movie-info{
+    position: relative;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.849),rgba(236, 236, 236, 0.63) );
+    margin:0;
+    height: 848px;
+    z-index:0;
+    width: 100%;
+}
+.image-pos-tic{
+  margin-top: 50px;
+  width: 140px;
+}
+.movie-name-tic{
+    color:aquamarine;
+    font-size: 30px;
+  
+}
+.chng-btn{
+    height: 50px;
+}
+.left-side-tic{
+    position: relative;
+    left:100px;
+}
+.bottom-tic{
+   position: relative;
+   right: 200px;
+   width: 440px;
+  
+}
+.movie-info-tic{
+    color:white;
+}
+.bck-home-tic{
+    text-align: right;
+    color:black!important;
+}
+.bck-home-tic:hover{
+    color:rgba(255, 154, 87, 0.486)!important;
+}
+.close-button-tic{
+    position: relative;
+    top:3px;
+    font-size: 24px;
+    border:none;
+    background-color: transparent;
+    color:black;
+
+   
+}
+.choose-title{
+    font-weight: 200;
+    font-size: 30px;
+}
+.cnt-btn{
+    height: 50px;
+    background-color: bisque!important;
+}
+.ticket-width{
+    width: 600px;
+    background-color: white!important;
+    font-size: 25px!important;
+    font-weight: 200!important;
+}
+.quantity {
+    display: inline-block; }
+   .btn-bg-tic{
+       background-color: rgb(218, 218, 218)!important;
+   }
+   .quantity .input-text.qty {
+    width: 35px;
+    height: 60px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #efefef;
+   }
+   
+   .quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; }
+   
+   .quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+   }
+   
+   .quantity.buttons_added .minus,
+   .quantity.buttons_added .plus {
+    padding: 14px 10px 14px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    cursor:pointer;}
+   
+   .quantity.buttons_added .minus {
+    border-right: 0; }
+   
+   .quantity.buttons_added .plus {
+    border-left: 0; }
+   
+   .quantity.buttons_added .minus:hover,
+   .quantity.buttons_added .plus:hover {
+    background: #eeeeee; }
+   
+   .quantity input::-webkit-outer-spin-button,
+   .quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; }
+    
+    .quantity.buttons_added .minus:focus,
+   .quantity.buttons_added .plus:focus {
+    outline: none; }
+   
+.section-price{
+    text-align: right;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 200;
+    position: relative;
+    right: 170px;
+}
+.seat-letter{
+    font-weight: 200;
+    list-style:none;
+    color:rgb(136, 136, 136);
+    position: relative;
+    right: 20px;
+    
+}
+.seat-letter-right{
+    font-weight: 200;
+    list-style:none;
+    color:rgb(136, 136, 136);
+    position: relative;
+    right: 20px;
+    text-align: right;
+    
+}
+.material-icons{
+    font-size: 35px!important;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+.movie-container {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+  }
+  
+  .movie-container select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 0;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .container {
+    perspective: 1000px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .seat {
+    background-color: #444451;
+    height: 20px;
+    width: 20px!important;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .selected {
+    background-color: #0081cb;
+  }
+  
+  .occupied {
+    background-color: rgba(201, 201, 201, 0.747);
+  }
+  
+
+  
+  .seat:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+  }
+  
+  .showcase .seat:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+  }
+  
+  .showcase {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    width: 290px;
+    margin-left: 310px;
+    
+  }
+  
+  .showcase li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+  
+  .showcase li small {
+    margin-left: 2px;
+  }
+  
+.screen-title{
+    text-align: center;
+    margin-top: 20px;
+} 
+.border-screen{
+    height: 10px!important;
+    margin-left: 20px;
+    width: 800px!important;
+    border-radius: 3rem;
+    
+    background-color: #000000!important;
+}
+  
+  
+    
